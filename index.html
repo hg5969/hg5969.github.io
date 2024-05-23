@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<!-- First HTML program (index.html) -->
+<html lang = en>
+	<head>
+		<meta charset = "utf-8">
+		<title>Gavin's Website</title>
+		
+		<!-- Beginning of the CSS Embedded Style Sheet -->
+		<style>
+			em		{ font-weight: bold; }
+					
+			h1		{ font-family: arial, sans-serif;
+					  font-weight: bold; color: red; }
+			
+			th		{ font-size: 12pt;
+					  font-family: arial, sans-serif; }
+			
+			p		{ font-size: 12pt; color: black; }
+			
+			.special{ color: SlateBlue; }
+		</style>
+	</head>
+	
+	<body>
+	
+		<!-- Altering some of the font styles, 
+		My name is going to be red and be italicized. -->
+		
+		<!-- This is some introductory stuff -->
+		<h1>Gavin Middleton</h1>
+		<p>I am a 3rd year computer science student. I have coded in C++, java, and python.</p>
+		<p>I am taking 2 classes. CSC 4110 (software engineering) and CSC 3750 (intro to web development).</p>
+		<p>My favorite show is Breaking Bad. <a href = "http://www.savewalterwhite.com/">Save Walter White</a></p>
+		<p>My favortie movie series is the Harry Potter series</p>
+		<p>My favorite sport is Baseball</p>
+		
+		<!-- Here are some images of me! -->
+		<p>
+			<img src = "https://wallpapers.com/images/hd/cute-zenitsu-showing-his-katana-p2l5wq1s3xvlezxk.jpg" width = "180" height = "120"
+				alt = "Zenitsu">
+			<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/640px-Flag_of_Michigan.svg.png" width = "180" height = "120"
+				alt = "Michigan State Flag">
+		</p>
+		
+		<!-- This is a tier list of my favorite animes in a table format -->
+		<table border = "3">
+			<caption><strong>Anime Tier List (S,A,B,C,D,E scale)</strong></caption>
+			<thead>
+				<tr>
+					<th>Tier</th> 
+					<th>Anime</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>S</td>
+					<td>AOT, Neon Genesis</td>
+				</tr>
+				<tr>
+					<td>A</td>
+					<td>Demon Slayer, JJK</td>
+				</tr>
+				<tr>
+					<td>B</td>
+					<td>Full Metal Alc., HxH</td>
+				</tr>
+				<tr>
+					<td>C</td>
+					<td>Moshuko Tensei, Shaman King</td>
+				</tr>
+				<tr>
+					<td>D</td>
+					<td>Goblin Slayer, 7 Deadly Sins</td>
+				</tr>
+				<tr>
+					<td>E</td>
+					<td>Radiant, Yasuke</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- Here is my personal course web page -->
+		<table border = "3">
+			<caption><h1><strong>Courses & some Notable Projects</strong></h1></caption>
+			
+			<thead>
+				<tr>
+					<th><em>Course ID</em></th>
+					<th><em>Course Name</em></th>
+					<th><em>Project Name</em></th>
+					<th><em>Short Description</em></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class = "special">
+					<td>CSC4110</td>
+					<td>Software Engineering</td>
+					<td>Facial Recognition Attendance System</td>
+					<td>We are creating a program that makes attendance taking more efficient 
+					and will save time for doing tasks at work or at school.</td>
+				</tr>
+				<tr>
+					<td>CSC4992</td>
+					<td>Intro to Parallel Computing</td>
+					<td>GOMC Optimization</td>
+					<td>I worked with one other student to optimize a function within the Monte Carlo 
+					program here at wayne state on the WSU Grid.</td>
+				</tr>
+				<tr>
+					<td>BE1600</td>
+					<td>Intro to Programming & Computing: Python</td>
+					<td>Image Grayscale</td>
+					<td>I had to implement an image through python and grayscale it.</td>
+				</tr>
+				<tr>
+					<td>CSC3020</td>
+					<td>Java Programming</td>
+					<td>TestHospital</td>
+					<td>Put Simply this program was made to create a database that stores patient, and doctor 
+					information and can get said information from a user input (like calling for a name of a patient).</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- This is just a quick legend to label the table colors -->
+		<p>***The blue colored items on the table are courses that are being taken currently (Sp/Su 2024)***</p>
+
+	</body>
+</html>
